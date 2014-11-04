@@ -26,7 +26,7 @@ $ git clone rock-paper-scissors-lizard-spock
 Change into the directory:
 
 ```shell
-$ cd translateRPSfromRubytoJavascript
+$ cd rock-paper-scissors-lizard-spock
 ```
 
 How to run the tests:
