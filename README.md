@@ -20,7 +20,7 @@ How to use
 Clone the repository:
 
 ```shell
-$ git clone git@github.com:leopoldkwok/translateRPSfromRubytoJavascript.git
+$ git clone rock-paper-scissors-lizard-spock
 ```
 
 Change into the directory:
@@ -28,7 +28,7 @@ Change into the directory:
 ```shell
 $ cd translateRPSfromRubytoJavascript
 ```
-https://github.com/ch2ch3/rock-paper-scissors-lizard-spock.git
+
 How to run the tests:
 
 ```shell
