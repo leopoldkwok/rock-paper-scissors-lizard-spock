@@ -3,10 +3,11 @@
   <head>
     <title>Rock Paper Scissors Lizard Spock</title>
     <link href='style.css' rel='stylesheet'>
+    <link rel="stylesheet" href="animate.min.css">
   </head>
   <body>
-    <h1>Rock Paper Scissors Lizard Spock</h1>
-    <section class='choices'>
+    <h1 align = "center"><strong>Rock Paper Scissors Lizard Spock</strong></h1>
+    <section class='choices' align="middle">
       <img src="images/rock.png" data-pick='rock'>
       <img src="images/paper.png" data-pick='paper'>
       <img src="images/scissors.png" data-pick='scissors'>
@@ -21,13 +22,15 @@
     <script src='lib/jquery-2.1.1.min.js'></script>
     <script>
     $(document).ready(function(){
-      var p1 = new Player('Alex');
-      var p2 = new Player('Mihai');
+      var p1 = new Player('Janice');
+      var p2 = new Player('Leo');
       var game = new Game(p1, p2);
 
       $('.choices img').on('click', function(){
         p1.picks($(this).data('pick'));
-        p2.picks('rock');
+        p2.randomPicks($(this).data('pick'));
+
+          // p2.picks('rock');
 
         console.log('Hello')
         // $('#results').prepend('<li>' + game.winningMessage() + '</li>');
@@ -35,9 +38,9 @@
 
         $("#results li:gt(3)").fadeOut(function(){
           $(this).remove();
-          console.log('A')
+       //   console.log('A')
         });
-        console.log('B')
+     //   console.log('B')
 
       })
     })

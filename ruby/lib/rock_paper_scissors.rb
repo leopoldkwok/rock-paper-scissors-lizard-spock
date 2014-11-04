@@ -28,6 +28,12 @@ class Game
 
 end
 
+
+
+
+
+
+
 class Player
 
   attr_reader :pick, :name

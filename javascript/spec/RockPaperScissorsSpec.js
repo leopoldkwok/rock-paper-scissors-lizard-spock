@@ -166,7 +166,20 @@ describe("Rock-Paper-Scissors", function() {
 
     });
 
-  });
+
+
+
+    describe ('random pick', function() {
+
+      it ('should be one of the 5 picks', function() {
+        player1.randomPicks();
+    expect(['rock','paper','scissors']).toContain(player1.pick);
+
+      });
+
+    });
+
+   });
 
   describe('victory messages', function() {
 

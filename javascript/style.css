@@ -1,6 +1,7 @@
 body {
   font-family: 'Helvetica Neue';
   margin: 15px 0 0 30px;
+  background-color:grey;
 }
 
 .choices img {
@@ -15,21 +16,31 @@ body {
   opacity: 1;
 }
 
+h1 {
+
+text-shadow: 5px 5px 5px #FF0000;
+p.solid {border-style: solid;}
+
+}
+
 h2, h3 {
   text-transform: capitalize;
 }
 
 #results {
   list-style: none;
+  text-align: center;
 }
 
 #results li {
-  background: #999;
-  color: #fff;
+  background: white;
+  color: black;
   font-size: 24px;
   border-radius: 8px;
   padding: 5px;
-  width: 80%;
+  width: 93%;
   margin-bottom: 10px;
   display: none;
+    
+
 }
