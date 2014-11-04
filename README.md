@@ -28,7 +28,7 @@ Change into the directory:
 ```shell
 $ cd translateRPSfromRubytoJavascript
 ```
-
+https://github.com/ch2ch3/rock-paper-scissors-lizard-spock.git
 How to run the tests:
 
 ```shell
