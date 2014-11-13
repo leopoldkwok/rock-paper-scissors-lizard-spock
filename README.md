@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/leopoldkwok/rock-paper-scissors-lizard-spock/badges/gpa.svg)](https://codeclimate.com/github/leopoldkwok/rock-paper-scissors-lizard-spock)
 Rock Paper Scissors Lizard Spock 
 ================================
 
